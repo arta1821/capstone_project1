@@ -1,0 +1,14 @@
+{
+    "IncomeCategory": [
+        { "label": "Supreme", "value": 208197 },
+        { "label": "Classic", "value": 219046.50 },
+        { "label": "Chicken", "value": 195919.50 },
+        { "label": "Veggie", "value": 193690.45 }
+    ],
+    "QuantityCategory": [
+        { "label": "Supreme", "value": 11987 },
+        { "label": "Classic", "value": 14860 },
+        { "label": "Chicken", "value": 11050 },
+        { "label": "Veggie", "value": 11649 }
+    ]
+}

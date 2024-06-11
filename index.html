@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dashboard</title>
+  <!-- STYLE -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+
+  <div class="sidebar">
+    <div class="brand">
+      <i class="ph ph-pizza"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+      <h1>Pizza Sales</h1>
+    </div>
+    <div class="logo">
+      <img src="img/Logo.png" alt="">
+    </div>
+    <div class="list">
+      <ul>
+        <a href="index.html">
+          <li><i class="ph ph-gauge"></i>&nbsp;&nbsp;<span>Dashboard</span></li>
+        </a>
+        <li class="dropdown">
+          <a href="category.html" class="dropbtn">
+            <i class="ph ph-cards-three"></i>&nbsp;&nbsp;<span>Category</span>
+          </a>
+          <div class="dropdown-content">
+            <a href="category1.html">Chiken Pizza Sales</a>
+            <a href="category2.html">Clasic Pizza Sales</a>
+            <a href="category3.html">Veggie Pizza Sales</a>
+            <a href="category3.html">Supreme Pizza Sales</a>
+          </div>
+        </li>
+        <a href="tables.html">
+        <li><i class="ph ph-database"></i>&nbsp;&nbsp;<span>Data</span></li></a>
+        <a href="team.html">
+          <li><i class="ph ph-users-three"></i>&nbsp;&nbsp;<span>Team</span></li>
+        </a>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <div class="header">
+      <div class="toggle">
+        <i class="ph ph-list" id="toggle-btn"></i>
+      </div>
+        <div class="dash">
+          <h1>Dashboard Pizza Sales</h1>
+        </div>
+      <div class="navbar_content">
+        <i class="bi bi-grid"></i>
+        <i class='bx bx-sun' id="darkLight"></i>
+      </div>
+    </div>
+    <div class="content">
+      <div class="cards">
+        <div class="card">
+          <div class="icon">
+            <i class="ph ph-currency-dollar"></i>
+          </div>
+          <div class="box">
+
+            <h2>816.853,45</h2>
+            <h3>Total Revenue</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <i class="ph ph-tag"></i>
+          </div>
+          <div class="box">
+            <h2>49.546</h2>
+            <h3>Quantity Sold</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <i class="ph ph-pizza"></i>
+          </div>
+          <div class="box">
+
+            <h2>96</h2>
+            <h3>Total Menu</h3>
+          </div>
+
+        </div>
+
+        <div class="card">
+          <div class="icon">
+            <i class="ph ph-chart-line"></i>
+          </div>
+          <div class="box">
+
+            <h2>16,48</h2>
+            <h3>AVG Sales</h3>
+          </div>
+        </div>
+      </div>
+      <div class="content-2">
+        <div class="chart-container">
+            <h3>Total Revenue</h3>
+            <canvas id="chart1"></canvas>
+        </div>
+        <div class="chart-container">
+            <h3>Total Quantity Sold</h3>
+            <canvas id="chart2"></canvas>
+        </div>
+        <div class="chart-container">
+            <h3>Sales Performance By Category</h3>
+            <canvas id="pieChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h3>Sales Performance By Size</h3>
+            <canvas id="sizePieChart"></canvas>
+        </div>
+      </div>
+    </div>
+    <footer>
+      &#169 MSIB RevoU - Team 22 Jakarta 2024
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+  <script src="chart.js"></script>
+  <script src="chart1.js"></script>
+  <script src="chart2.js"></script>
+</body>
+
+</html>

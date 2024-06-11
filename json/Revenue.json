@@ -1,0 +1,42 @@
+{
+  "hourly": [
+    { "label": "9 AM", "value": 83.00 },
+    { "label": "10 AM", "value": 303.65 },
+    { "label": "11 AM", "value": 44827.95 },
+    { "label": "12 AM", "value": 111770.05},
+    { "label": "1 PM", "value": 105993.80 },
+    { "label": "2 PM", "value": 59165.45 },
+    { "label": "3 PM", "value": 52920.40 },
+    { "label": "4 PM", "value": 69839.70 },
+    { "label": "5 PM", "value": 86201.50 },
+    { "label": "6 PM", "value": 89117.10 },
+    { "label": "7 PM", "value": 72592.95 },
+    { "label": "8 PM", "value": 58143.50 },
+    { "label": "9 PM", "value": 41993.85 },
+    { "label": "10 PM", "value": 22779.20 },
+    { "label": "11 PM", "value": 1121.35 }
+  ],
+  "daily": [
+    { "label": "Monday", "value": 107221.70 },
+    { "label": "Tuesday", "value": 113882.15 },
+    { "label": "Wednesday", "value": 114336.50 },
+    { "label": "Thursday", "value": 123348.75 },
+    { "label": "Friday", "value": 136002 },
+    { "label": "Saturday", "value": 123002.65 },
+    { "label": "Sunday", "value": 99059.70 }
+  ],
+  "monthly": [
+    { "label": "January", "value": 69721.40 },
+    { "label": "February", "value": 65051.75 },
+    { "label": "March", "value": 70289.25 },
+    { "label": "April", "value": 68593 },
+    { "label": "May", "value": 71294.90 },
+    { "label": "June", "value": 68158.30 },
+    { "label": "July", "value": 72557.90 },
+    { "label": "August", "value": 68206.35 },
+    { "label": "September", "value": 64072.20 },
+    { "label": "October", "value": 63955.70 },
+    { "label": "November", "value": 70287.50 },
+    { "label": "December", "value": 64665.20 }
+  ]
+}

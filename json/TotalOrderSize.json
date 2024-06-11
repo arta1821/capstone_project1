@@ -1,0 +1,14 @@
+{
+    "revenueBySize": [
+        { "label": "S", "value": 178076.5 },
+        { "label": "M", "value": 249382.25 },
+        { "label": "L", "value": 375318.70 },
+        { "label": "XL", "value": 14076 }
+    ],
+    "quantitySoldBySize": [
+        { "label": "S", "value": 14403 },
+        { "label": "M", "value": 15635 },
+        { "label": "L", "value": 18956 },
+        { "label": "XL", "value": 552 }
+    ]
+}
